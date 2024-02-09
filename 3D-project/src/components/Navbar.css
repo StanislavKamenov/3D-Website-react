@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
+.menu-general {
+    display: flex;
+    font-family: 'Fira Code', monospace;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    letter-spacing: 3px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.menu ul:hover {
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+    transition: 0.5s ease-in;
+}
+
+.giAtom {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+
+.giAtom:hover {
+    color: rgb(0, 110, 255);
+    transition: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        margin-left: 5rem;
+    }
+}

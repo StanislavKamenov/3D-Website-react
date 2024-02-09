@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.general-content {
+    display: flex; 
+    justify-content: center;
+}
+
+.line {
+    width: 119rem;
+    height: 0.2rem;
+    background-color: rgb(0, 153, 255);
+    transform: rotate(180deg); /* Обръщане на линията надолу */
+}
+
+.Model {
+    font-size: 60px;
+    margin-left: 15rem;
+    margin-top: 10rem;
+    color: rgb(0, 153, 255);
+    font-family: 'Fira Code', monospace;
+}
+
+
+h4 {
+    font-size: 40px;
+    margin-left: 15rem;
+    margin-top: -2rem;
+    font-family: 'Fira Code', monospace;
+}
+
+.color1 {
+    color: rgb(0, 153, 255);
+}
+
+.general-text {
+    width: 40rem;
+    margin-left: 15rem;
+    margin-top: -2rem;
+    font-family: 'Michroma', sans-serif;
+}
+
+button {
+    margin-left: 15rem;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.315);
+    transition: 1s;
+}
+
+.custom {
+    margin-top: -30rem;
+    margin-left: 60rem;
+}
+
+    @media only screen and (max-width: 768px) {
+        .Model {
+            font-size: 8vw;
+            margin-left: 5%;
+            margin-top: 10vh;
+        }
+        
+        h4 {
+            font-size: 6vw;
+            margin-left: 5%;
+            margin-top: -2vh;
+        }
+        
+        .general-text {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: -2vh;
+        }
+        
+        button {
+            margin-left: 5%;
+            width: 30%;
+            height: 6vh;
+        }
+        
+        .custom {
+            margin-top: 0vh;
+            margin-left: -5rem;
+        }
+        .line {
+            display: none;
+        }
+    }
+
+@media only screen and (max-width: 480px) {
+    .Model {
+        font-size: 10vw;
+        width: 13rem;
+        margin-left: 70%;
+        margin-top: 10vh;
+    }
+    
+    h4 {
+        font-size: 8vw;
+        width: 27rem;
+        margin-left: 9.5rem;
+        margin-top: -2vh;
+    }
+    
+    .general-text {
+        width: 90%;
+        margin-left: 55%;
+        margin-top: -2vh;
+    }
+    
+    button {
+        margin-left: 50%;
+        width: 50%;
+        height: 6vh;
+    }
+    
+    .custom {
+        margin-top: 10vh;
+        margin-left: -3rem
+    }
+
+    .line {
+        display: none;
+    }   
+}
+
+@media only screen and (max-width: 1750px) {
+    .line {
+        display: none;
+    }   
+}
