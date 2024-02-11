@@ -10,12 +10,12 @@ This is one page responsive 3D WebSite using Spline for 3D-Model
 
 <h5>Download repo</h5>
 
-<div style="background-color: #f0f0f0; padding: 10px;">
-```python
-def greet():
-    print("Hello, World!")
+```html
+npm i
+```
 
-
-<h3>npm run dev</h3>
+```html
+npm run dev
+```
 
 ![image](https://github.com/StanislavKamenov/3D-Website-react/assets/76092821/5c503786-148d-4834-be55-8b28db0f24d7)
