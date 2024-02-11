@@ -6,9 +6,10 @@
 
 <h2>How run this project</h2>
 
+<h5>Download repo</h5>
+
 <h5>Navigate to folder</h5>
 
-<h5>Download repo</h5>
 
 ```html
 npm i
