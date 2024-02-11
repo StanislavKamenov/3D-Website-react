@@ -11,11 +11,10 @@ This is one page responsive 3D WebSite using Spline for 3D-Model
 <h5>Download repo</h5>
 
 <div style="background-color: #f0f0f0; padding: 10px;">
+```python
+def greet():
+    print("Hello, World!")
 
-```html
-npm i
-```
-</div>
 
 <h3>npm run dev</h3>
 
