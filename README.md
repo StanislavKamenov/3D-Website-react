@@ -1,22 +1,34 @@
-<h1>This is one page responsive 3D WebSite using Spline for 3D-Model</h1>
+3D One-Page Responsive Website
+This is a responsive, one-page 3D website built with ReactJS and Spline for interactive 3D models, creating a visually engaging user experience.
 
-<h2>Using Technology</h2>
+Technologies Used
+ReactJS: For building the user interface.
+Spline: For integrating and animating 3D models directly into the website.
+Getting Started
+Follow these steps to set up and run the project locally:
 
-<h5>ReactJS<h5>
+Download the Repository
+Clone this repository to your local machine:
 
-<h2>How run this project</h2>
+bash
+Копиране на код
+git clone [repository_url]
+Navigate to the Project Folder
+Move into the project’s directory:
 
-<h5>Download repo</h5>
+bash
+Копиране на код
+cd [project_folder_name]
+Install Dependencies
+Use npm to install the necessary packages:
 
-<h5>Navigate to folder</h5>
+bash
+Копиране на код
+npm install
+Run the Development Server
+Start the development server to preview the website:
 
-
-```html
-npm i
-```
-
-```html
+bash
+Копиране на код
 npm run dev
-```
-
-![image](https://github.com/StanislavKamenov/3D-Website-react/assets/76092821/5c503786-148d-4834-be55-8b28db0f24d7)
+Your 3D website should now be up and running locally!
